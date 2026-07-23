@@ -1,7 +1,7 @@
-👽 Rodrigo Facilidades kk (Macro Master)
-Uma extensão leve e poderosa para o Google Chrome desenvolvida para automatizar e agilizar o fluxo de atendimento ao cliente. Ela permite cadastrar gatilhos rápidos (macros), pesquisar respostas e preencher dados dinâmicos através de um formulário inteligente flutuante diretamente no chat.
+# 👽 Rodrigo Facilidades kk (Extensão para Macros)
+Uma extensão leve desenvolvida para automatizar e agilizar o fluxo de atendimento ao cliente. Ela permite cadastrar gatilhos rápidos (macros), pesquisar respostas e preencher dados dinâmicos através de um formulário inteligente flutuante diretamente no chat.
 
-🚀 Funcionalidades Principais
+### 🚀 Funcionalidades Principais
 Atalho / (Busca de Gatilho): Digite / seguido do nome da macro na caixa de mensagem para ver sugestões instantâneas.
 
 Atalho // (Busca por Conteúdo): Digite // para pesquisar no texto completo de todas as suas macros cadastradas.
@@ -12,7 +12,8 @@ Interface Simples no Popup: Painel para criar, editar, pesquisar, importar e exp
 
 Atalhos de Navegação: Escolha as sugestões usando as setas do teclado e confirme com Enter ou Tab.
 
-📥 Como Instalar a Extensão no Chrome
+### 📥 Como Instalar
+
 Como a extensão foi desenvolvida sob medida, ela deve ser carregada no modo do desenvolvedor:
 
 Baixe os arquivos deste repositório para o seu computador.
@@ -25,7 +26,8 @@ Clique no botão Carregar sem compactação (no canto superior esquerdo).
 
 Selecione a pasta onde estão os arquivos da extensão.
 
-💡 Como Usar no Dia a Dia
+### 💡 Como Usar no Dia a Dia
+
 1. Criando ou Importando Macros
 Clique no ícone da extensão no navegador para abrir o painel:
 
@@ -73,7 +75,8 @@ Preencha os campos usando Tab para navegar e aperte Enter.
 
 O texto completo e formatado será colado automaticamente no campo de digitação!
 
-🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
+
 JavaScript (Vanilla): Injeção de scripts no DOM (content.js).
 
 Chrome Storage API: Sincronização e armazenamento local das macros.
