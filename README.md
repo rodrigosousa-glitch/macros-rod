@@ -81,4 +81,4 @@ JavaScript (Vanilla): Injeção de scripts no DOM (content.js).
 
 Chrome Storage API: Sincronização e armazenamento local das macros.
 
-HTML5 & CSS3: Interface do painel popup e modais flutuantes.
+HTML5 & CSS3: Interface do painel popup e modais flutuantes
