@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Macro Master</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>👽rodrigo facilidades kk </h1>
+    <button id="btn-options" title="Configurações">⚙️</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="list">Minhas Macros</button>
+    <button class="tab-btn" data-tab="import">Importar</button>
+    <button class="tab-btn" data-tab="export">Exportar</button>
+  </div>
+
+  <div id="tab-list" class="tab-content active">
+    <div class="search-box">
+      <input type="text" id="search-macros" placeholder="🔍 Pesquisar macros...">
+    </div>
+    <div id="macros-container"></div>
+    <button id="btn-add" class="btn-primary">+ Nova Macro</button>
+  </div>
+
+  <div id="tab-import" class="tab-content">
+    <p class="hint">
+      Cole suas macros abaixo. O formato detecta automaticamente:<br>
+      <strong>Modo Linha:</strong> <code>/trigger==>texto</code><br>
+      <strong>Modo Bloco:</strong> trigger na 1ª linha, texto nas seguintes
+    </p>
+    <textarea id="import-area" placeholder="/email==>meu@email.com
+/ass==>Atenciosamente,
+Eu"></textarea>
+    <div class="import-actions">
+      <button id="btn-import" class="btn-primary">📥 Importar Tudo</button>
+      <button id="btn-clear-import" class="btn-secondary">Limpar</button>
+    </div>
+    <div id="import-result"></div>
+  </div>
+
+  <div id="tab-export" class="tab-content">
+    <p class="hint">Copie o conteúdo abaixo ou baixe como arquivo.</p>
+    <textarea id="export-area" readonly></textarea>
+    <button id="btn-download" class="btn-primary">💾 Baixar .txt</button>
+  </div>
+
+  <div id="modal-edit" class="modal">
+    <div class="modal-content">
+      <h3 id="modal-title">Nova Macro</h3>
+      <label>Trigger (ex: /email)</label>
+      <input type="text" id="edit-trigger" placeholder="/email">
+      <label>Texto da Macro</label>
+      <textarea id="edit-text" placeholder="Digite o texto..."></textarea>
+      <div class="modal-actions">
+        <button id="btn-save" class="btn-primary">Salvar</button>
+        <button id="btn-cancel" class="btn-secondary">Cancelar</button>
+        <button id="btn-delete" class="btn-danger" style="display:none">🗑️ Excluir</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
