@@ -1,4 +1,4 @@
-# 👽 Rodrigo Facilidades kk (Extensão para Macros) V 1.2
+# 👽 Rodrigo Facilidades kk (Extensão para Macros) V. 1.2
 Uma extensão leve desenvolvida para automatizar e agilizar o fluxo de atendimento ao cliente. Ela permite cadastrar gatilhos rápidos (macros), pesquisar respostas e preencher dados dinâmicos através de um formulário inteligente flutuante diretamente no chat.
 
 ### 🚀 Funcionalidades Principais
