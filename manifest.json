@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "rodrigo facilidades",
-  "version": "1.0.1",
-  "description": "Envie macros prontas com comandos personalizados. Sem limites.",
+  "name": "Rodrigo Facilidades",
+  "version": "1.1",
+  "description": "Envie macros prontas com comandos personalizados. Inclui aba para processos Jira.",
   "permissions": ["storage", "activeTab", "scripting"],
   "host_permissions": ["<all_urls>"],
   "action": {
